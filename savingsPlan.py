@@ -28,6 +28,8 @@ def checkSave():
 def mainMenu():
     userInput = "" # initilizes the input to start the loop
     while(userInput != 'q'):
+        os.system("clear")
+        print("\n")
         print("Welcome to Super-Saver! What would you like to do?\n"\
               "--------------------------------------------------\n"
               "(E)nter paycheck.\n"\
